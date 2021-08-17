@@ -139,6 +139,11 @@ img {
     border: none;
     margin-bottom: 0;
 }
+
+.entrada__imagen{
+    margin: 0 auto;
+    max-width: 60rem;    
+}
 .boton {
     display: block;
     font-family: var(--fuenteHeading);
