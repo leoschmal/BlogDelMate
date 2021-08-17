@@ -7,15 +7,14 @@
     <title>BlogDelMate</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <meta name="description" content="Página web de blog del mate">
-
+    <meta name="description" content="Sitio Web de la Yerba Mate, con información, consejos y recetas">
+    <meta name="keywords"
+    content="Yerba Mate, Blog, Infusión, Argentina, Mate, Recetas, Terere, Bebida Nacional, Cultura, Patrimonio, Parana">
     <!-- Prefetch -->
     <link rel="prefetch" href="nosotros.html" as="document">
-
     <!-- Preload -->
     <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
-
     <link rel="preload"
         href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
         crossorigin="crossorigin" as="font">
@@ -24,19 +23,28 @@
 
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
-      <!--Open Graph Protocol-->
-  <meta property="og:title" content="Blog del Mate" />
-  <meta property="og:description"
-    content="Sitio dedicado a la Yerba Mate, infusión nacional de la Argentina. Con Información, datos curiosos y recetas" />
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="es_AR" />
-  <meta property="og:url" content="hhttps://leoschmal.github.io/BlogDelMate/" />
-  <meta property="og:image" content="https://raw.githubusercontent.com/leoschmal/BlogDelMate/main/img/icons8-mate-96.png" />
-  
+    <!--Open Graph Protocol-->
+    <meta property="og:title" content="Blog del Mate" />
+    <meta property="og:description"
+        content="Sitio dedicado a la Yerba Mate, infusión nacional de la Argentina. Con Información, datos curiosos y recetas" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_AR" />
+    <meta property="og:url" content="hhttps://leoschmal.github.io/BlogDelMate/" />
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/leoschmal/BlogDelMate/main/img/icons8-mate-96.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NC5XWJT2ZG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NC5XWJT2ZG');
+</script>
+
 </head>
 
 <body>
-
     <header class="header">
         <div class="contenido_header">
             <div class="contenedor">
@@ -45,7 +53,6 @@
                         <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DelMate</span>
                         </h1>
                     </a>
-
                     <nav class="navegacion">
                         <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
                         <a href="recetas.html" class="navegacion__enlace">Recetas</a>
