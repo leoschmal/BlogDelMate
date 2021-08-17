@@ -212,33 +212,57 @@ img {
     }
 }
 
-/** Cursos **/
-.curso {
+/** Recetas **/
+.receta {
     padding: 3rem 0;
     border-bottom: 1px solid var(--gris);
+    padding-bottom: 0rem;
 }
 @media (min-width: 768px) {
-    .curso {
+    .receta {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         column-gap: 2rem;
+        grid-template-areas:
+        "imagen ingredientes"
+        "preparacion preparacion";
+        margin-bottom: 2rem;
+        align-items: center;
     }
 }
-.curso:last-of-type {
+.receta:last-of-type {
    border: none;
 }
-.curso__label {
+.receta__label {
     font-family: var(--fuenteHeading);
     font-weight: bold;
+    margin-top: 0rem;
+    margin-bottom: 0rem;;
 }
-.curso__info {
+.receta__ingredientes{
     font-weight: normal;
+    grid-area: ingredientes;
 }
-.curso__label,
-.curso__info {
+.receta__label,
+.receta__info {
     font-size: 2rem;
 }
+.receta ul{
+    margin-top:0rem;
+    margin-bottom: 0rem;
+}
 
+.receta__imagen{
+    grid-area: imagen;
+    max-width: 45rem;    
+}
+.receta__preparacion{
+    grid-area: preparacion;
+}
+.receta__descripcion{
+    margin-bottom: 0rem;
+    margin-top:0rem;
+}
 /** Contacto **/
 
 .error {
@@ -258,14 +282,15 @@ img {
 .contacto-bg {
     background-image: url(../img/contacto.jpg);
     height: 40rem;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: bottom center;
     
 }
 
 .formulario {
     background-color: var(--blanco);
-    margin: -5rem auto 0 auto;
+    margin: 0rem auto 0 auto;
     width: 95%;
     padding: 5rem;
 }

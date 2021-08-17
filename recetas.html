@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,128 +8,347 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <header class="header">
         <div class="contenido_header">
-        <div class="contenedor">
-            <div class="barra">
-                <a class="logo" href="index.html">
-                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DelMate</span></h1>
-                </a>
+            <div class="contenedor">
+                <div class="barra">
+                    <a class="logo" href="index.html">
+                        <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DelMate</span>
+                        </h1>
+                    </a>
 
-                <nav class="navegacion">
-                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
-                    <a href="recetas.html" class="navegacion__enlace">Recetas</a>
-                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
-                </nav>
+                    <nav class="navegacion">
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                        <a href="recetas.html" class="navegacion__enlace">Recetas</a>
+                        <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    </nav>
+                </div>
             </div>
-        </div>
 
-        <div class="header__texto">
-            <h2 class="no-margin">Información, consejos y recetas</h2>
-            <p class="no-margin">Conociendo a la Infusión Nacional de la Argentina</p>
-        </div>
+            <div class="header__texto">
+                <h2 class="no-margin">Información, consejos y recetas</h2>
+                <p class="no-margin">Conociendo a la Infusión Nacional de la Argentina</p>
+            </div>
         </div>
     </header>
 
     <main class="contenedor">
         <h3 class="centrar-texto">Recetario de la Yerba Mate</h3>
 
-        <div id="budin" class="curso">
-            <div class="curso__imagen">
+        <!--COMIENZAN RECETAS-->
+        <div id="budin" class="receta">
+            <div class="receta__imagen">
                 <img src="img/budin.jpg" alt="Budin">
             </div>
-            <div class="curso__informacion">
+            <div class="receta__ingredientes">
                 <h4 class="no-margin">Budín con Yerba Mate</h4>
-                <p class="curso__label">Precio: 
-                    <span class="curso__info">Gratis</span>
-                </p>
-                <p class="curso__label">Cupo: 
-                    <span class="curso__info">20</span>
-                </p>
-                <p class="curso__descripcion">
-                    Donec tempor, nisl et rhoncus viverra, turpis enim convallis ligula, non hendrerit nulla tortor nec odio. Morbi non mattis nunc, elementum auctor arcu. Aliquam vestibulum arcu non sem porta auctor. Nam vel congue ligula, eu condimentum felis. Nunc aliquam hendrerit odio sit amet venenatis. Nunc varius, libero a tempor rutrum, nulla risus congue velit, nec suscipit nibh lectus ac dolor. Nulla facilisi.
-                </p>
-            </div> <!--.curso-informacion-->
-        </div> <!--.curso -->
+                <p class="receta__label">Ingredientes:</p>
+                <ul>
+                    <li>300 g de manteca.</li>
+                    <li>360 g de azúcar.</li>
+                    <li>6 huevos.</li>
+                    <li>2 taza de mate cocido fuerte.</li>
+                    <li>2 cdita de esencia de vainilla.</li>
+                    <li>2 cda de ralladura de naranja.</li>
+                    <li>1 taza de cascaritas de naranjas confitadas.</li>
+                    <li>600 g de harina leudante.</li>
+                    <li>Azúcar impalpable a gusto.</li>
+                </ul>
+            </div>
+            <!--.receta-informacion-->
+            <div class="receta__preparacion">
+                <p class="receta__label">Preparación:</p>
+                <p class="receta__descripcion">
+                    Batir la manteca con el azúcar y los huevos, agregados de a uno por vez.
+                    Incorporar el mate cocido, la esencia de vainilla, la ralladura de naranja y las cascaritas de
+                    naranja confitadas y picadas. Agregar la harina leudante y batir.
+                    Distribuir en un molde tipo flanera, enmantecado y enharinado y hornear 45 minutos a fuego suave.
+                    Retirar, enfriar y espolvorear con azúcar impalpable.</p>
+            </div>
+        </div>
+        <!--.receta budin-->
 
-        <div id="flan" class="curso">
-            <div class="curso__imagen">
+        <div id="flan" class="receta">
+            <div class="receta__imagen">
                 <img src="img/flan.jpg" alt="flan">
             </div>
-            <div class="curso__informacion">
+            <div class="receta__ingredientes">
                 <h4 class="no-margin">Flan con Caramelo de Cocido Quemado de Yerba Mate</h4>
-                <p class="curso__label">Precio: 
-                    <span class="curso__info">Gratis</span>
-                </p>
-                <p class="curso__label">Cupo: 
-                    <span class="curso__info">20</span>
-                </p>
-                <p class="curso__descripcion">
-                    Donec tempor, nisl et rhoncus viverra, turpis enim convallis ligula, non hendrerit nulla tortor nec odio. Morbi non mattis nunc, elementum auctor arcu. Aliquam vestibulum arcu non sem porta auctor. Nam vel congue ligula, eu condimentum felis. Nunc aliquam hendrerit odio sit amet venenatis. Nunc varius, libero a tempor rutrum, nulla risus congue velit, nec suscipit nibh lectus ac dolor. Nulla facilisi.
-                </p>
-            </div> <!--.curso-informacion-->
-        </div> <!--.curso -->
+                <p class="receta__label">Ingredientes (5porciones):</p>
+                <ul>
+                    <li>1 lata Leche Condensada MOCA 395 g.</li>
+                    <li>2 Unidades Crema de leche 200 g.</li>
+                    <li>5 Huevos.</li>
+                    <li>1 cucharada Esencia De Vainilla.</li>
+                    <li>1 vaso Azúcar.</li>
+                    <li>1/2 vaso de infusión de Yerba Mate.</li>
+                    <li>1/2 vaso Agua.</li>
+                </ul>
 
-        <div id="helado" class="curso">
-            <div class="curso__imagen">
+            </div>
+            <!--.receta-informacion-->
+            <div class="receta__preparacion">
+                <p class="receta__label">Preparación:</p>
+                <p class="receta__descripcion">
+                    Flan
+
+                    En una licuadora, añadir la Condensada Moça, las Cremas de Leche Nestlé, la esencia de vainilla y
+                    los huevos.
+                    Licuar hasta que se mezclen bien.
+                    Colocar el caramelo en el fondo del molde de flan y verter la mezcla.
+                    Una vez listo, colocar el molde dentro de un recipiente con agua (baño María) y llevar al horno a
+                    fuego medio por 40 minutos.
+                    Sacar del horno y dejar enfriar. Asegurarse que el flan este frío y proceder a desmoldar en un plato
+                    o recipiente.
+                    Caramelo
+
+                    Colocar el azúcar y la infusión de Yerba Mate en una sartén y calentar a fuego medio hasta que tome
+                    color rojizo.
+                    Agregar el agua poco a poco hasta que hierva y se forme un caramelo. Apagar y reservar
+                    Tips
+
+                    Dejar reposar la mezcla unos minutos para evitar burbujas de aire en el flan.
+                    Introducir el caramelo en los moldes mientras esté caliente.
+                </p>
+            </div>
+        </div>
+        <!--.receta flan-->
+
+        <div id="helado" class="receta">
+            <div class="receta__imagen">
                 <img src="img/helado.jpg" alt="helado">
             </div>
-            <div class="curso__informacion">
+            <div class="receta__ingredientes">
                 <h4 class="no-margin">Helado de Yerba Mate</h4>
-                <p class="curso__label">Precio: 
-                    <span class="curso__info">Gratis</span>
+                <p class="receta__label">Ingredientes(3 a 5 porciones):</p>
+                <ul>
+                    <li>Infusión de hojas sueltas de Yerba Mate.</li>
+                    <li>2 tazas (o 0,5 l) de leche.</li>
+                    <li>5 yemas de huevo.</li>
+                    <li>1 taza de azúcar.</li>
+                    <li>Crema batida.</li>
+                </ul>
+                <p class="receta__label">Equipo: <span class="receta__descripcion">Máquina de helados (opcional).</span>
                 </p>
-                <p class="curso__label">Cupo: 
-                    <span class="curso__info">20</span>
+                <p class="receta__descripcion">Es más fácil utilizar una máquina de helado para preparar esta receta,
+                    pero también puedes hacerlo sin una.
                 </p>
-                <p class="curso__descripcion">
-                    Donec tempor, nisl et rhoncus viverra, turpis enim convallis ligula, non hendrerit nulla tortor nec odio. Morbi non mattis nunc, elementum auctor arcu. Aliquam vestibulum arcu non sem porta auctor. Nam vel congue ligula, eu condimentum felis. Nunc aliquam hendrerit odio sit amet venenatis. Nunc varius, libero a tempor rutrum, nulla risus congue velit, nec suscipit nibh lectus ac dolor. Nulla facilisi.
-                </p>
-            </div> <!--.curso-informacion-->
-        </div> <!--.curso -->
+            </div>
+            <!--.receta-informacion-->
+            <div class="receta__preparacion">
+                <p class="receta__label">Preparación:</p>
+                <p class="receta__descripcion">
+                    Calentar la leche en un hervidor y retirar del fuego tan pronto como empiece a hervir.
+                    Agregue aproximadamente 3 cucharaditas de Yerba Mate de hojas sueltas y déjela reposar durante unos
+                    20 minutos. Luego se filtra para que se le quiten las hojas y se vuelve a calentar.
+                    Mezclar el azúcar con las yemas de huevo y remover hasta que la mezcla esté espumosa. Viértelo en la
+                    infusión de leche caliente mientras revuelve. Mantener a fuego lento y revolver hasta que espese.
+                    Cuando la mezcla esté lo suficientemente espesa, retírela del fuego. Debe ser bastante espeso y ya
+                    no completamente líquido. Si no está lo suficientemente espesa, puede agregar un poco de crema
+                    batida después de que se haya enfriado.
+                    Ahora puedes usar tu máquina de helados si tienes una. Si no lo tiene, ponga la mezcla en el
+                    congelador. Tienes que sacarlo del congelador cada 15 minutos y mezclarlo lentamente para mantenerlo
+                    homogéneo. ¡Tienes que repetir esto de 5 a 6 veces y luego estará listo!</p>
+            </div>
+        </div>
+        <!--.receta helado-->
 
-        <div id="bizcochuelo" class="curso">
-            <div class="curso__imagen">
+        <div id="bizcochuelo" class="receta">
+            <div class="receta__imagen">
                 <img src="img/bizcochuelo.jpg" alt="bizcochuelo">
             </div>
-            <div class="curso__informacion">
+            <div class="receta__ingredientes">
                 <h4 class="no-margin">Bizcochuelo de Yerba Mate y mandarina</h4>
-                <p class="curso__label">Precio: 
-                    <span class="curso__info">Gratis</span>
-                </p>
-                <p class="curso__label">Cupo: 
-                    <span class="curso__info">20</span>
-                </p>
-                <p class="curso__descripcion">
-                    Donec tempor, nisl et rhoncus viverra, turpis enim convallis ligula, non hendrerit nulla tortor nec odio. Morbi non mattis nunc, elementum auctor arcu. Aliquam vestibulum arcu non sem porta auctor. Nam vel congue ligula, eu condimentum felis. Nunc aliquam hendrerit odio sit amet venenatis. Nunc varius, libero a tempor rutrum, nulla risus congue velit, nec suscipit nibh lectus ac dolor. Nulla facilisi.
-                </p>
-            </div> <!--.curso-informacion-->
-        </div> <!--.curso -->
-
-        <div id="mousse" class="curso">
-            <div class="curso__imagen">
-                <img src="img/mousse.jpg" alt="bizcochuelo">
+                <p class="receta__label">Ingredientes:</p>
+                <ul>
+                    <li>3 huevos.</li>
+                    <li>50 cc de jugo de mandarina.</li>
+                    <li>1 cucharadita de ralladura de mandarina.</li>
+                    <li>30 gramos de Yerba Mate.</li>
+                    <li>250 cc de agua caliente, casi a punto de hervir.</li>
+                    <li>100 cc de aceite neutro (girasol en lo posible).</li>
+                    <li>350 gramos de azúcar.</li>
+                    <li>1 pizca de sal fina.</li>
+                    <li>400 gramos de harina leudante.</li>
+                    <li>1 cucharadita de polvo de hornear (tipo Royal) o levadura química.</li>
+                    <li>Rocío vegetal.</li>
+                    <li>Harina para enharinar el molde.</li>
+                </ul>
             </div>
-            <div class="curso__informacion">
-                <h4 class="no-margin">Mousse de Yerba Mate</h4>
-                <p class="curso__label">Precio: 
-                    <span class="curso__info">Gratis</span>
-                </p>
-                <p class="curso__label">Cupo: 
-                    <span class="curso__info">20</span>
-                </p>
-                <p class="curso__descripcion">
-                    Donec tempor, nisl et rhoncus viverra, turpis enim convallis ligula, non hendrerit nulla tortor nec odio. Morbi non mattis nunc, elementum auctor arcu. Aliquam vestibulum arcu non sem porta auctor. Nam vel congue ligula, eu condimentum felis. Nunc aliquam hendrerit odio sit amet venenatis. Nunc varius, libero a tempor rutrum, nulla risus congue velit, nec suscipit nibh lectus ac dolor. Nulla facilisi.
-                </p>
-            </div> <!--.curso-informacion-->
-        </div> <!--.curso -->
+            <!--.receta-informacion-->
+            <div class="receta__preparacion">
+                <p class="receta__label">Preparación:</p>
+                <p class="receta__descripcion">
+                    Muy simple, no necesitaremos batidora eléctrica, solo un batidor de mano.
+                    Cada elemento que agregamos lo batimos hasta incorporar. Poco batido, solo hasta integrar bien.
+                    Vamos a infusionar la yerba ante todo. La colocamos en una taza y vertemos el agua, revolvemos con
+                    una cucharita y reservamos.
+                    Primero ponemos los huevos y batimos.
+                    Agregamos el jugo y la ralladura de mandarina y batimos.
+                    Agregamos la infusión colada 3 veces en colador común o una si es en papel o tela., batimos.
+                    Añadimos el aceite y batimos.
+                    vamos con el azúcar y mezclamos bien.
+                    Hacemos lo propio con la harina pero la incorporamos en 3 partes. En la última añadimos la levadura
+                    o polvo de hornear, batimos bastante hasta que quede bien homogéneo.
+                    Pasamos a un molde savarín (con chimenea) previamente rociado con rocío vegetal o aceitado o
+                    enmantecado, como prefieran y enharinado.
+                    Llevamos a horno 175° poco precalentado (3 a 4 minutos) durante 40 minutos.
+                    Comprobamos con palillo o cuchillo pinchando el centro, si sale limpio, ya está.
+                    Dejamos entibiar y espolvoreamos con azúcar glas o impalpable.</p>
+            </div>
+        </div>
+        <!--.receta bizcochuelo-->
 
-        
+        <div id="mousse" class="receta">
+            <div class="receta__imagen">
+                <img src="img/mousse.jpg" alt="mousse">
+            </div>
+            <div class="receta__ingredientes">
+                <h4 class="no-margin">Mousse de Yerba Mate</h4>
+                <p class="receta__label">Ingredientes:</p>
+                <ul>
+                    <li>Crema de leche 300 grs.</li>
+                    <li>Merenguito 250 grs.</li>
+                    <li>Nuez 50 grs.</li>
+                    <li>Naranja 1.</li>
+                </ul>
+                <p class="receta__descripcion">Mate Cocido</p>
+                <ul>
+                    <li>Yerba 200 grs.</li>
+                    <li>Agua 400 cc.</li>
+                    <li>Baño de chocolate 1 sobre.</li>
+                </ul>
+                <p class="receta__descripcion">Almíbar:</p>
+                <ul>
+                    <li>Azúcar 180 grs.</li>
+                    <li>Mate cocido 1 taza.</li>
+                </ul>
+                <p class="receta__descripcion">Merengue:</p>
+                <ul>
+                    <li>4 claras.</li>
+                    <li>Azúcar 60 grs.</li>
+                </ul>
+            </div>
+            <!--.receta-informacion-->
+            <div class="receta__preparacion">
+                <p class="receta__label">Preparación:</p>
+                <p class="receta__descripcion">
+                    <strong>Para el mate cocido:</strong>
+                    Hervir la yerba con agua.
+                    Reposar por dos horas y reservar.
+                    <strong>Para el almíbar:</strong>
+                    Derretir el azúcar con el mate cocido y llegar a los 180 grados.
+                    <strong>Para el merengue:</strong>
+                    Batir las claras hasta espumar y sumar el azúcar hasta cremar.
+                    Ir agregando el almíbar de Yerba Mate en forma de hilo y seguir batiendo hasta lograr el punto del
+                    merengue.
+                    Agregar la crema de leche semibatida de manera envolvente y reservar en heladera.
+                    <strong>Para el armado:</strong>
+                    Servir en vaso con base de baño de chocolate y merengue picado, decorar con nueces y gajos de
+                    naranja.</p>
+            </div>
+        </div>
+        <!--.receta mousse-->
+
+        <div id="macarons" class="receta">
+            <div class="receta__imagen">
+                <img src="img/macarons.jpg" alt="macarons">
+            </div>
+            <div class="receta__ingredientes">
+                <h4 class="no-margin">Macarons de Yerba Mate</h4>
+                <p class="receta__label">Ingredientes (24 porciones):</p>
+                <ul>
+                    <li>10 claras.</li>
+                    <li>335 gramos de azúcar</li>
+                    <li>335 gramos de polvo de almendras</li>
+                    <li>335 gramos de azúcar impalpable</li>
+                    <li>10 gramos de mate tamizado</li>
+                </ul>
+                <p class="receta__descripcion">La ganache:</p>
+                <ul>
+                    <li>100 cc de crema</li>
+                    <li>50 g de mate</li>
+                    <li>300 g de chocolate blanco picado</li>
+                </ul>
+            </div>
+            <!--.receta-informacion-->
+            <div class="receta__preparacion">
+                <p class="receta__label">Preparación:</p>
+                <p class="receta__descripcion">
+                    Realizar un merengue italiano con las claras y el azúcar.
+                    Incorporar, con movimientos envolventes, el polvo de almendras, el azúcar impalpable y el mate.
+                    Colocar en una manga y realizar sobre papel siliconado los botones del tamaño deseado.
+                    Hornear a 140º, por 15 minutos.
+                    <strong>Relleno:</strong>
+                    Realizar una ganache llevando a hervor la crema con el mate.
+                    Colar sobre el chocolate blanco picado.
+                    Dejar reposar e integrar.
+                    Refrigerar hasta que tome cuerpo la crema.
+                    Rellenar los macarons con la ganache y conservar en la heladera.</p>
+            </div>
+        </div>
+        <!--.receta macarons-->
+
+        <div id="alfajor" class="receta">
+            <div class="receta__imagen">
+                <img src="img/alfajor.jpg" alt="alfajor">
+            </div>
+            <div class="receta__ingredientes">
+                <h4 class="no-margin">Alfajores con Yerba Mate</h4>
+                <p class="receta__label">Ingredientes:</p>
+                <p class="receta__descripcion">Para la masa:</p>
+                <ul>
+                    <li>300 g de harina 0000.</li>
+                    <li>5150 g de manteca.</li>
+                    <li>150 g de azúcar impalpable.</li>
+                    <li>3 yemas.</li>
+                    <li>ralladura de 3 naranjas.</li>
+                    <li>1 pizca de sal.</li>
+                </ul>
+                <p class="receta__descripcion">El relleno:</p>
+                <ul>
+                    <li>300 g de chocolate cobertura semiamargo.</li>
+                    <li>500 g de crema.</li>
+                    <li>1 taza de Yerba Mate (preferentemente del tipo "hierbas del litoral").</li>
+                </ul>
+                <p class="receta__descripcion">Para el baño:</p>
+                <ul>
+                    <li>Cantidad necesaria de ocolate cobertura blanco.</li>
+                    <li>Cantidad necesaria de ralladura de naranja deshidratada.</li>
+                </ul>
+            </div>
+            <!--.receta-informacion-->
+            <div class="receta__preparacion">
+                <p class="receta__label">Preparación:</p>
+                <p class="receta__descripcion">
+                    Tamizar la harina y el azúcar impalpable. Agregar la sal, la manteca fría en cubos, la ralladura y
+                    trabajar con la punta de los dedos hasta formar un arenado.
+                    Agregar las yemas y unir la masa. Envolver con papel film y guardar en la heladera durante 1 hora.
+                    Estirar sobre la mesada hasta que tenga cuatro milímetros de espesor y cortar discos del tamaño
+                    deseado.
+                    Colocar sobre una placa y cocinar en horno precalentado a 160° hasta que los bordes comiencen a
+                    dorarse.
+                    Para la ganache, calentar 300 gramos de crema con la yerba mate y dejar infundir hasta que tome su
+                    sabor.
+                    Colar caliente sobre el chocolate con leche exprimiendo bien la yerba para que pase todo el sabor.
+                    Dejar fundir el chocolate y remover hasta obtener una crema lisa.
+                    Batir los 200 gramos de crema restante y agregar a la ganache a temperatura ambiente. Enfriar en la
+                    heladera hasta que tenga cuerpo y colocar en una manga pastelera. Rellenar los alfajores y llevar al
+                    freezer.
+                    Una vez congelados bañarlos en chocolate blanco templado y dejarlos enfriar en una bandeja o placa
+                    con papel manteca o encerado. Espolvorear con la ralladura deshidratada.</p>
+            </div>
+        </div>
+        <!--.receta -->
+
+
     </main>
 
     <footer class="footer">
@@ -144,10 +364,15 @@
                     <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                 </nav>
             </div>
-            <div class="firma"><p>Creado por <strong><a href="https://leoschmal.com.ar" target="_blank" rel="noopener noreferrer" style="color: white;"> < Leonardo Schmal /> </a></strong> | Todos los derechos reservados 2021</p></div>
+            <div class="firma">
+                <p>Creado por <strong><a href="https://leoschmal.com.ar" target="_blank" rel="noopener noreferrer"
+                            style="color: white;">
+                            < Leonardo Schmal /> </a></strong> | Todos los derechos reservados 2021</p>
+            </div>
 
         </div>
     </footer>
     <script src="js/modernizr.js"></script>
 </body>
+
 </html>
