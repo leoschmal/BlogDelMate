@@ -28,6 +28,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: var(--primario);
 }
 h1, h2, h3, h4 {
     font-family: var(--fuenteHeading);
